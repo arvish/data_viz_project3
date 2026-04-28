@@ -177,6 +177,8 @@ function renderStats() {
     : "Data quality report not loaded. Copy episode_parse_report.csv into /data for status chips.";
   d3.select("#dataQuality").text(quality);
   d3.select("#barChip").text(state.season === "All" ? "All seasons" : `Season ${state.season}`);
+  const modeLabel = state.networkMode === "orbital" ? "Orbital sphere" : state.networkMode === "matrix" ? "Matrix mode" : "Adjacent speaker signal";
+  d3.select("#networkChip").text(modeLabel);
 }
 
 function sizeOf(svgNode) {
@@ -419,6 +421,11 @@ function renderNetworkGraph() {
 
   if (state.networkMode === "matrix") {
     svg.append("text").attr("class","empty-state-svg").attr("x", width/2).attr("y", height/2).attr("text-anchor","middle").attr("fill","rgba(238,250,255,.55)").text("Force graph hidden in Matrix mode.");
+    return;
+  }
+
+  if (state.networkMode === "orbital") {
+    renderOrbitalNetwork(svg, width, height);
     return;
   }
 
@@ -692,6 +699,197 @@ function debounce(fn, wait) {
   };
 }
 
+
+
+function renderOrbitalNetwork(svg, width, height) {
+  const edges = aggregateEdges();
+  const degree = d3.rollup(
+    edges.flatMap(e => [{speaker:e.source,w:e.weight},{speaker:e.target,w:e.weight}]),
+    v => d3.sum(v, d => d.w),
+    d => d.speaker
+  );
+
+  const nodes = MAIN_CAST.map((speaker, i) => {
+    const golden = Math.PI * (3 - Math.sqrt(5));
+    const y = 1 - (i / (MAIN_CAST.length - 1)) * 2;
+    const radiusAtY = Math.sqrt(Math.max(0, 1 - y * y));
+    const theta = i * golden;
+    return {
+      speaker,
+      weight: degree.get(speaker) || 0,
+      x3: Math.cos(theta) * radiusAtY,
+      y3: y,
+      z3: Math.sin(theta) * radiusAtY
+    };
+  });
+
+  const nodeByName = new Map(nodes.map(d => [d.speaker, d]));
+  const maxNode = d3.max(nodes, d => d.weight) || 1;
+  const maxEdge = d3.max(edges, d => d.weight) || 1;
+  const r = Math.min(width, height) * (state.popout === "networkGraph" ? 0.38 : 0.34);
+  const cx = width / 2;
+  const cy = height / 2 + 8;
+  const perspective = 2.8;
+  const nodeScale = d3.scaleSqrt().domain([0, maxNode]).range([7, state.popout === "networkGraph" ? 28 : 20]);
+  const edgeScale = d3.scaleSqrt().domain([0, maxEdge]).range([0.7, state.popout === "networkGraph" ? 9 : 6]);
+
+  let rotX = -0.18;
+  let rotY = 0.62;
+  let auto = true;
+
+  const root = svg.append("g").attr("class", "orbital-root");
+
+  svg.append("text")
+    .attr("class", "orbital-note")
+    .attr("x", 18)
+    .attr("y", height - 18)
+    .text("Drag to rotate · depth fades hidden links · click a node to focus character");
+
+  function rotatePoint(p) {
+    const cosY = Math.cos(rotY), sinY = Math.sin(rotY);
+    const cosX = Math.cos(rotX), sinX = Math.sin(rotX);
+
+    let x = p.x3 * cosY + p.z3 * sinY;
+    let z = -p.x3 * sinY + p.z3 * cosY;
+    let y = p.y3 * cosX - z * sinX;
+    z = p.y3 * sinX + z * cosX;
+
+    const scale = perspective / (perspective - z);
+    return {
+      ...p,
+      rx: x,
+      ry: y,
+      rz: z,
+      px: cx + x * r * scale,
+      py: cy + y * r * scale,
+      scale
+    };
+  }
+
+  function projectCirclePoint(x3, y3, z3) {
+    return rotatePoint({x3, y3, z3, speaker: "", weight: 0});
+  }
+
+  function drawGuide() {
+    const guides = root.append("g").attr("class", "orbital-guides");
+    guides.append("circle")
+      .attr("class", "orbital-globe")
+      .attr("cx", cx)
+      .attr("cy", cy)
+      .attr("r", r);
+
+    const latitudes = [-0.5, 0, 0.5];
+    latitudes.forEach(lat => {
+      const pts = d3.range(0, 361, 8).map(a => {
+        const t = a * Math.PI / 180;
+        const rr = Math.sqrt(1 - lat * lat);
+        return projectCirclePoint(Math.cos(t) * rr, lat, Math.sin(t) * rr);
+      });
+      guides.append("path")
+        .attr("class", "orbital-latitude")
+        .attr("d", d3.line().x(d => d.px).y(d => d.py)(pts));
+    });
+
+    const longitudes = [0, Math.PI/3, 2*Math.PI/3];
+    longitudes.forEach(lon => {
+      const pts = d3.range(-90, 91, 5).map(a => {
+        const t = a * Math.PI / 180;
+        return projectCirclePoint(Math.cos(t) * Math.cos(lon), Math.sin(t), Math.cos(t) * Math.sin(lon));
+      });
+      guides.append("path")
+        .attr("class", "orbital-longitude")
+        .attr("d", d3.line().x(d => d.px).y(d => d.py)(pts));
+    });
+  }
+
+  function draw() {
+    root.selectAll("*").remove();
+    drawGuide();
+
+    const projectedNodes = nodes.map(rotatePoint);
+    const projectedByName = new Map(projectedNodes.map(d => [d.speaker, d]));
+
+    const projectedEdges = edges.map(e => {
+      const s = projectedByName.get(e.source);
+      const t = projectedByName.get(e.target);
+      return {...e, s, t, depth: ((s?.rz || 0) + (t?.rz || 0)) / 2};
+    }).filter(e => e.s && e.t).sort((a,b) => a.depth - b.depth);
+
+    root.append("g")
+      .selectAll("line")
+      .data(projectedEdges)
+      .join("line")
+      .attr("class", "orbital-link")
+      .attr("x1", d => d.s.px)
+      .attr("y1", d => d.s.py)
+      .attr("x2", d => d.t.px)
+      .attr("y2", d => d.t.py)
+      .attr("stroke-width", d => edgeScale(d.weight) * Math.max(0.45, (d.depth + 1.25) / 2.25))
+      .attr("stroke", d => (d.source === state.character || d.target === state.character) ? "rgba(140,255,195,.82)" : "rgba(96,240,255,.34)")
+      .attr("opacity", d => Math.max(0.08, Math.min(0.78, (d.depth + 1.18) / 2.18)))
+      .on("mousemove", (event, d) => showTooltip(event, `<strong>${d.source} ↔ ${d.target}</strong><br>Interaction weight: ${fmt(d.weight)}<br>${state.season === "All" ? "All seasons" : `Season ${state.season}`}<br>Depth: ${d.depth > 0 ? "front" : "back"}`))
+      .on("mouseleave", hideTooltip);
+
+    const frontToBack = projectedNodes.slice().sort((a,b) => a.rz - b.rz);
+
+    const nodeG = root.append("g")
+      .selectAll("g")
+      .data(frontToBack)
+      .join("g")
+      .attr("transform", d => `translate(${d.px},${d.py})`)
+      .style("opacity", d => Math.max(0.34, Math.min(1, (d.rz + 1.55) / 2.2)))
+      .on("click", (_, d) => {
+        state.character = d.speaker;
+        d3.select("#characterSelect").property("value", state.character);
+        renderAll();
+        if (state.popout) renderPopout();
+      })
+      .on("mousemove", (event, d) => showTooltip(event, `<strong>${d.speaker}</strong><br>Network weight: ${fmt(d.weight || 0)}<br>${d.rz > 0 ? "Front hemisphere" : "Back hemisphere"}`))
+      .on("mouseleave", hideTooltip);
+
+    nodeG.append("circle")
+      .attr("class", "orbital-node")
+      .attr("r", d => nodeScale(d.weight) * d.scale)
+      .attr("fill", d => CAST_COLORS.get(d.speaker))
+      .attr("stroke-width", d => d.speaker === state.character ? 3 : 1.2);
+
+    nodeG.append("text")
+      .attr("class", "orbital-label")
+      .attr("y", d => -nodeScale(d.weight) * d.scale - 7)
+      .attr("text-anchor", "middle")
+      .attr("fill", d => d.speaker === state.character ? "#8cffc3" : "rgba(238,250,255,.82)")
+      .style("font-size", d => `${Math.max(10, 11 * d.scale)}px`)
+      .text(d => d.speaker);
+  }
+
+  const drag = d3.drag()
+    .on("start", () => { auto = false; })
+    .on("drag", (event) => {
+      rotY += event.dx * 0.008;
+      rotX -= event.dy * 0.008;
+      rotX = Math.max(-1.25, Math.min(1.25, rotX));
+      draw();
+    });
+
+  svg.call(drag);
+
+  draw();
+
+  if (!state.popout) {
+    // A short settling spin gives the orbital mode life without becoming distracting.
+    let frames = 0;
+    const spin = d3.timer(() => {
+      if (!auto || state.networkMode !== "orbital" || state.popout) {
+        spin.stop();
+        return;
+      }
+      rotY += 0.004;
+      draw();
+      frames += 1;
+      if (frames > 420) spin.stop();
+    });
+  }
+}
 
 const POPOUT_META = {
   networkGraph: {

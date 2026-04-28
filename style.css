@@ -585,3 +585,44 @@ select:focus, input:focus { border-color: rgba(96,240,255,.85); box-shadow: 0 0 
   width: 34px;
   height: 34px;
 }
+
+
+/* --- Orbital network view --- */
+.orbital-note {
+  fill: rgba(238,250,255,.62);
+  font-size: 12px;
+  letter-spacing: .04em;
+}
+.orbital-globe {
+  fill: rgba(96,240,255,.035);
+  stroke: rgba(96,240,255,.22);
+  stroke-width: 1.2;
+  stroke-dasharray: 4 7;
+}
+.orbital-latitude,
+.orbital-longitude {
+  fill: none;
+  stroke: rgba(190,245,255,.08);
+  stroke-width: 1;
+}
+.orbital-node {
+  cursor: grab;
+  stroke: rgba(255,255,255,.72);
+  stroke-width: 1.2;
+  filter: drop-shadow(0 0 14px rgba(96,240,255,.25));
+}
+.orbital-node:active {
+  cursor: grabbing;
+}
+.orbital-link {
+  stroke-linecap: round;
+  pointer-events: stroke;
+}
+.orbital-label {
+  font-size: 11px;
+  font-weight: 800;
+  paint-order: stroke;
+  stroke: rgba(3, 12, 18, .88);
+  stroke-width: 3px;
+  stroke-linejoin: round;
+}

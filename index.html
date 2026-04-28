@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Differential Dialogue | House M.D. Character Intelligence Console</title>
+  <title>Differential Dialogue | House M.D. Character Visualization Console</title>
   <link rel="stylesheet" href="style.css" />
   <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
 </head>
@@ -16,7 +16,7 @@
   <main class="app-shell">
     <header class="topbar glass-panel">
       <section class="brand-block">
-        <div class="eyebrow">Princeton‑Plainsboro Transcript Intelligence System</div>
+        <div class="eyebrow">House MD Transcript Visualization - Arvish Pandey</div>
         <h1>Differential Dialogue</h1>
         <p>A D3-powered analysis of who speaks, who connects, and what language defines <em>House M.D.</em></p>
       </section>
@@ -50,6 +50,7 @@
         <span>Network</span>
         <select id="networkModeSelect">
           <option value="force">Force graph</option>
+          <option value="orbital">Orbital sphere</option>
           <option value="matrix">Interaction matrix</option>
           <option value="both">Both</option>
         </select>
