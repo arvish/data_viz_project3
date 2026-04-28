@@ -1,0 +1,15 @@
+# System
+.DS_Store
+Thumbs.db
+
+# Local editor
+.vscode/
+.idea/
+
+# Python leftovers
+__pycache__/
+*.pyc
+.venv/
+
+# Logs
+*.log

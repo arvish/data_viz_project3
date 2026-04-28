@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Differential Dialogue | House M.D. Character Intelligence Console</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+</head>
+<body>
+  <div class="ambient ambient-a"></div>
+  <div class="ambient ambient-b"></div>
+  <div class="ambient ambient-c"></div>
+  <div class="grid-scan"></div>
+
+  <main class="app-shell">
+    <header class="topbar glass-panel">
+      <section class="brand-block">
+        <div class="eyebrow">Princeton‑Plainsboro Transcript Intelligence System</div>
+        <h1>Differential Dialogue</h1>
+        <p>A D3-powered analysis of who speaks, who connects, and what language defines <em>House M.D.</em></p>
+      </section>
+
+      <section class="stat-strip" id="statStrip">
+        <div class="stat-card"><span class="stat-value">—</span><span class="stat-label">episodes</span></div>
+        <div class="stat-card"><span class="stat-value">—</span><span class="stat-label">seasons</span></div>
+        <div class="stat-card"><span class="stat-value">—</span><span class="stat-label">main cast</span></div>
+        <div class="stat-card"><span class="stat-value">—</span><span class="stat-label">dialogue lines</span></div>
+      </section>
+    </header>
+
+    <section class="control-ribbon glass-panel">
+      <label>
+        <span>Season</span>
+        <select id="seasonSelect"></select>
+      </label>
+      <label>
+        <span>Character</span>
+        <select id="characterSelect"></select>
+      </label>
+      <label>
+        <span>Metric</span>
+        <select id="metricSelect">
+          <option value="line_count">Lines</option>
+          <option value="word_count">Words</option>
+          <option value="episode_count">Episode appearances</option>
+        </select>
+      </label>
+      <label>
+        <span>Network</span>
+        <select id="networkModeSelect">
+          <option value="force">Force graph</option>
+          <option value="matrix">Interaction matrix</option>
+          <option value="both">Both</option>
+        </select>
+      </label>
+      <button id="resetBtn" class="console-btn">Reset View</button>
+      <div class="data-quality" id="dataQuality">Awaiting data quality report...</div>
+    </section>
+
+    <section class="dashboard-grid">
+      <article class="panel glass-panel span-4">
+        <div class="panel-header">
+          <div>
+            <h2>Character Command Weight</h2>
+            <p>Rank the recurring cast by selected metric.</p>
+          </div>
+          <span class="panel-chip" id="barChip">All seasons</span>
+        </div>
+        <svg id="barChart" class="chart"></svg>
+      </article>
+
+      <article class="panel glass-panel span-5">
+        <div class="panel-header">
+          <div>
+            <h2>Season Presence Matrix</h2>
+            <p>How dialogue weight shifts across the show’s eight-season run.</p>
+          </div>
+          <span class="panel-chip">Character × Season</span>
+        </div>
+        <svg id="heatmap" class="chart"></svg>
+      </article>
+
+      <article class="panel glass-panel span-3 profile-panel">
+        <div class="panel-header">
+          <div>
+            <h2>Case File</h2>
+            <p>Selected character profile.</p>
+          </div>
+          <span class="panel-chip pulse-dot">Live Focus</span>
+        </div>
+        <div id="profileCard" class="profile-card"></div>
+      </article>
+
+      <article class="panel glass-panel span-6">
+        <div class="panel-header">
+          <div>
+            <h2>Interaction Graph</h2>
+            <p>Weighted dialogue proximity among the 14-character main cast.</p>
+          </div>
+          <span class="panel-chip" id="networkChip">Adjacent speaker signal</span>
+        </div>
+        <svg id="networkGraph" class="chart network-chart"></svg>
+        <button class="pop-btn" data-popout="networkGraph" title="Open expanded view">⛶</button>
+      </article>
+
+      <article class="panel glass-panel span-6">
+        <div class="panel-header">
+          <div>
+            <h2>Interaction Matrix</h2>
+            <p>Readable pairwise intensity for the same network edges.</p>
+          </div>
+          <span class="panel-chip">Edge weight</span>
+        </div>
+        <svg id="interactionMatrix" class="chart matrix-chart"></svg>
+        <button class="pop-btn" data-popout="interactionMatrix" title="Open expanded view">⛶</button>
+      </article>
+
+      <article class="panel glass-panel span-6">
+        <div class="panel-header">
+          <div>
+            <h2>Lexical Fingerprint</h2>
+            <p>Top terms for the selected character and season.</p>
+          </div>
+          <span class="panel-chip" id="wordChip">Top 50 words</span>
+        </div>
+        <svg id="wordBubble" class="chart word-chart"></svg>
+        <button class="pop-btn" data-popout="wordBubble" title="Open expanded view">⛶</button>
+      </article>
+
+      <article class="panel glass-panel span-6">
+        <div class="panel-header">
+          <div>
+            <h2>Phrase Tracker</h2>
+            <p>Search any word or phrase and trace who says it, and when.</p>
+          </div>
+          <span class="panel-chip">Level 4 explorer</span>
+        </div>
+        <div class="search-row">
+          <input id="phraseInput" type="text" value="lupus" placeholder="Try: lupus, pain, cancer, everybody lies..." />
+          <button id="phraseBtn" class="console-btn">Trace Phrase</button>
+        </div>
+        <div id="phraseMeta" class="phrase-meta">Load dialogue_lines.csv to enable full-text phrase search.</div>
+        <svg id="phraseChart" class="chart phrase-chart"></svg>
+        <button class="pop-btn" data-popout="phraseChart" title="Open expanded view">⛶</button>
+      </article>
+    </section>
+  </main>
+
+
+  <div id="popoutOverlay" class="popout-overlay" aria-hidden="true">
+    <div class="popout-card glass-panel">
+      <div class="popout-header">
+        <div>
+          <div class="eyebrow mini-eyebrow">Expanded Diagnostic View</div>
+          <h2 id="popoutTitle">Expanded View</h2>
+          <p id="popoutSubtitle">Focused chart inspection mode.</p>
+        </div>
+        <button id="popoutClose" class="popout-close" title="Close expanded view">×</button>
+      </div>
+      <div id="popoutControls" class="popout-controls"></div>
+      <svg id="popoutSvg" class="popout-svg"></svg>
+    </div>
+  </div>
+
+  <div id="tooltip" class="tooltip"></div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
