@@ -1,0 +1,1098 @@
+speaker,line_count,word_count,episode_count,season_count
+House,21088,295100,171,8
+Foreman,6683,72644,163,8
+Chase,5041,52844,159,8
+Wilson,4895,55333,165,8
+Cuddy,3910,42775,147,7
+Cameron,3828,38522,101,7
+Taub,3468,37467,92,5
+Thirteen,2089,22691,56,5
+Kutner,1123,11578,34,3
+Adams,836,9287,21,1
+Park,677,7107,21,1
+Masters,662,7442,14,2
+Amber,487,4627,17,3
+Stacy,467,5156,10,3
+Lucas,203,2932,9,2
+Nolan,194,3170,5,2
+Lee,170,1395,3,3
+Jack,151,1844,5,4
+Patient,151,1111,18,6
+Mom,149,1256,9,4
+Dad,141,1151,8,3
+Sarah,138,1350,9,5
+Sam,137,1414,9,4
+Alvie,136,1855,3,1
+Nick,136,1687,5,4
+Rachel,133,1328,17,5
+Nurse,121,810,57,8
+Vogler,120,2080,5,1
+Tritter,118,1859,6,1
+Arlene,116,1381,4,2
+Bill,114,1179,4,4
+Gabe,109,1247,3,3
+Eve,109,651,2,2
+Hannah,104,822,2,2
+Henry,102,1001,4,4
+Cofield,96,1509,1,1
+Alice,96,825,2,2
+Joe,95,1122,3,3
+Jason,95,825,1,1
+Cate,94,937,1,1
+Ted,93,738,2,2
+Mark,92,812,6,3
+Jeff,90,884,3,3
+Woman,90,735,22,8
+Cole,89,677,4,1
+Sebastian,86,1384,1,1
+Dominika,83,949,6,2
+Nicole,83,572,3,2
+George,81,968,4,4
+Natalie,78,826,2,2
+Emily,76,663,6,4
+Hank,75,901,2,2
+Eddie,73,711,2,2
+Doug,71,704,4,3
+Moira,71,666,1,1
+Jane,71,511,2,2
+Sean,70,481,2,2
+Valerie,67,840,1,1
+Daniel,67,720,1,1
+Ken,66,706,2,2
+Evan,66,648,3,3
+John,65,760,4,4
+Scott,64,743,2,2
+Nate,64,574,1,1
+Stevie,63,513,1,1
+Elizabeth,62,805,3,3
+Roy,62,553,2,1
+Will,60,847,2,2
+Anica,60,455,1,1
+Bob,59,759,3,3
+Frankie,59,752,2,2
+Senator,59,731,1,1
+Alex,59,581,3,2
+Emma,59,561,1,1
+Colleen,59,520,1,1
+Jeremy,59,512,2,2
+Mickey,58,681,2,2
+Tucker,58,631,1,1
+Hanna,58,375,1,1
+Lupe,57,698,1,1
+Travis Brennan,57,520,2,1
+Man,56,819,16,8
+Boyd,56,673,1,1
+Julia,56,642,4,2
+Melanie,56,564,3,3
+Luke,56,561,2,2
+Vince,55,637,2,2
+Beasley,55,593,2,1
+Irene Walesa,55,410,1,1
+Danny,54,685,1,1
+Ben Prosner,54,453,1,1
+Maria,54,399,2,2
+Kelly,53,577,1,1
+Sophia,53,551,1,1
+Kalvin,53,490,1,1
+Rebecca,53,478,1,1
+Sidas,52,667,1,1
+Tommy,52,654,4,3
+Carnell,51,432,2,2
+Amy,51,354,3,3
+Nadia,50,503,1,1
+Brennan,50,494,2,1
+Ed,50,400,1,1
+Finn,49,583,1,1
+Greta,49,530,2,2
+Zack,49,474,1,1
+Barbara,49,472,1,1
+Lou,48,531,1,1
+Cam,48,465,1,1
+Abbey,48,433,1,1
+Molly,48,407,4,2
+Robin,48,221,2,2
+Edie,47,428,1,1
+Naomi,47,366,2,2
+Emmy,46,568,1,1
+Maggie,46,425,1,1
+Jeffrey Cole,46,287,2,1
+Deran,45,481,1,1
+Donald,45,397,2,2
+Rob,45,379,1,1
+Melinda,45,356,2,2
+Samira Terzi,43,392,1,1
+Caring,43,305,1,1
+Derek,43,300,2,2
+Carly,42,525,1,1
+Esteban,42,390,1,1
+Benjamin,41,604,1,1
+Lydia,41,526,2,1
+Ramon,41,445,1,1
+Crandall,41,390,1,1
+Surgeon,41,327,17,7
+Dr Obyedkov,41,324,1,1
+Alfredo,41,304,1,1
+Lola,40,433,1,1
+Becca,40,401,1,1
+Billy,40,400,2,2
+Melissa,40,332,2,2
+Yonatan Arnoff,40,316,1,1
+Max,40,289,1,1
+Bobby,39,571,3,2
+Doctor,39,473,15,6
+Simon,39,404,2,2
+Jerry,39,305,3,3
+Brant,38,572,1,1
+Clarence,38,465,1,1
+William,38,369,2,2
+Lida,38,349,1,1
+Kayla,38,326,2,2
+Dugan,37,602,1,1
+Morgan,37,466,1,1
+Brandon,37,357,1,1
+Spencer,37,333,1,1
+Jimmy Quidd,37,303,1,1
+Duncan,37,287,1,1
+Lucy,37,269,2,2
+Rowan,37,255,1,1
+Patrick,37,165,2,2
+Dana,36,460,1,1
+Cyrus,36,450,1,1
+Jordan,36,399,2,2
+Mary,36,332,2,2
+Sidney,36,323,3,3
+Darrien,36,316,1,1
+Andie,36,274,1,1
+Rodney,36,259,1,1
+Jeffery,35,395,1,1
+Ben,35,376,5,4
+Daryl,35,359,2,2
+Joseph,35,256,4,3
+Iris,35,254,1,1
+Enid,35,245,1,1
+Jessica,35,233,2,2
+Weber,34,368,1,1
+Ryan,34,359,3,2
+Darnell,34,290,1,1
+Roz Viner,34,280,1,1
+Afsoun,33,394,1,1
+Broda,33,373,1,1
+Margaret,33,370,1,1
+Powell,33,346,1,1
+Medina,33,323,2,1
+Audrey,33,286,1,1
+Elise,33,241,1,1
+Donny,32,336,1,1
+Clancy,32,223,1,1
+Blythe,31,446,3,2
+Driscoll,31,443,1,1
+Hayes,31,427,1,1
+Bert,31,402,1,1
+Stark,31,352,1,1
+Apple,31,278,1,1
+Derrick,31,266,1,1
+Abby,31,185,1,1
+Keith,31,158,1,1
+Marcus,30,536,2,2
+Kendall,30,392,1,1
+Lane,30,330,1,1
+Maddy,30,276,1,1
+Deb,30,260,1,1
+Fran,30,260,1,1
+Harvey,30,251,1,1
+Dibala,29,515,1,1
+Lawyer,29,415,5,4
+Diane,29,382,3,2
+Nash,29,379,1,1
+Fletcher,29,337,1,1
+Oliver,29,323,3,3
+Jackson,29,286,1,1
+Sidney Curtis,29,262,1,1
+Dominic,29,212,1,1
+Cotter,29,182,1,1
+Kenny,28,322,1,1
+Nora,28,315,1,1
+Nurse Regina,28,246,1,1
+Leah,28,233,1,1
+Rebellious,28,232,1,1
+Margo,28,229,1,1
+Teacher,28,207,4,4
+Judge,27,429,2,1
+Manager,27,312,2,2
+Foley,27,259,1,1
+Mother,27,259,7,5
+Lynne,26,333,1,1
+Simpson,26,321,3,3
+Bus Driver,26,287,2,2
+Barton,26,280,1,1
+Ali,26,243,2,1
+Homeless Old Guy,26,185,1,1
+Matty,26,182,1,1
+Mrs Bradberry,26,173,1,1
+Georgia,25,349,1,1
+Lady,25,288,6,4
+Dan,25,286,1,1
+Captain Mccreaney,25,280,1,1
+Henry Dobson,25,277,1,1
+Justine,25,262,1,1
+Kurtz,25,249,1,1
+Kara,25,240,1,1
+Luca,25,218,1,1
+Cesar,25,164,1,1
+Daughter,25,154,5,4
+Ellen,24,287,2,2
+Ainsley,24,274,1,1
+Brent,24,230,1,1
+Dr Simpson,24,228,5,4
+Freedom Master,24,222,2,1
+Dara,24,188,1,1
+Addie,24,133,1,1
+Thomas,23,474,1,1
+Cheng,23,356,1,1
+Charlotte,23,217,1,1
+Tom,23,217,1,1
+Cop,23,207,5,5
+Della,23,202,1,1
+Franni,23,187,1,1
+Keo,23,136,1,1
+Jasper,23,116,1,1
+Treiber,22,296,1,1
+Jay,22,293,2,1
+Wibberly,22,290,1,1
+Eva,22,235,1,1
+Richardson,22,212,1,1
+Ellie,22,200,1,1
+Shannon,22,173,1,1
+Brenda,22,166,7,3
+Neil,21,280,1,1
+Janey,21,265,1,1
+Anita,21,247,2,1
+Faye,21,230,1,1
+Keen,21,225,1,1
+Elena,21,210,1,1
+Marlene,21,199,1,1
+Lucille,21,192,1,1
+Bartender,21,191,6,3
+Victoria,21,179,1,1
+Ashley,21,164,1,1
+Coach,21,160,3,3
+Regina,21,148,3,2
+Claudia,21,135,2,2
+Girl,21,100,6,4
+Cindy,20,274,4,2
+Callie,20,271,1,1
+Sophie,20,225,2,2
+Casey Alfonso,20,196,1,1
+Sykes,20,192,1,1
+Wendy,20,170,3,2
+Mystery Woman,20,131,1,1
+Lulu,20,121,1,1
+Ian,20,106,3,3
+Seth,20,98,2,2
+Bonnie,19,432,1,1
+Taylor,19,394,1,1
+Kyle,19,262,1,1
+Miles,19,207,1,1
+Phoebe,19,176,1,1
+Walter,19,173,1,1
+Taddy,19,172,1,1
+Bowman,19,169,1,1
+Emory,19,168,1,1
+Ezra,19,151,1,1
+Joey,19,150,1,1
+Roger,19,123,2,2
+Lou Alfonso,19,116,1,1
+Kama,19,109,1,1
+Samantha,19,104,1,1
+Stella,19,100,1,1
+Eli,18,338,1,1
+Eugene,18,299,1,1
+Anderson,18,230,1,1
+Mendelson,18,208,1,1
+Tracy,18,190,1,1
+Hourani,18,148,3,3
+Mrs Campbell,18,107,1,1
+Mr Lambert,18,99,1,1
+Jane Doe,17,281,2,2
+Annette,17,222,1,1
+Ramona,17,189,1,1
+Franklin,17,183,1,1
+Costello,17,154,1,1
+Guy,17,129,6,6
+Pam,17,104,1,1
+Lewis,17,87,1,1
+Warner,16,224,1,1
+Marie,16,195,1,1
+Phil,16,166,2,2
+Jody,16,150,1,1
+Myron,16,133,1,1
+Zach,16,126,1,1
+Whitney,16,123,1,1
+Cecelia,16,109,1,1
+Niles,16,95,1,1
+Honey,16,93,1,1
+Artie,16,89,1,1
+Megan Bradberry,16,88,1,1
+Donovan,15,219,1,1
+Clinic Patient,15,206,1,1
+Janice,15,197,3,1
+Brock,15,167,2,2
+Corwin,15,161,1,1
+Ruby,15,156,3,2
+Westbrook,15,153,1,1
+Glenda,15,150,1,1
+Vanessa,15,140,1,1
+Theresa,15,129,1,1
+Monroe,15,126,1,1
+Judy,15,107,1,1
+Prosecutor,15,98,1,1
+Olivia,14,227,1,1
+Weinmann,14,223,1,1
+Paramedic,14,202,7,4
+Denise,14,185,1,1
+Deedee,14,134,1,1
+Landon,14,123,1,1
+Connie Walesa,14,119,1,1
+Agent Smith,14,107,1,1
+Michael,14,95,3,3
+Officer,14,89,3,3
+Janie,14,87,1,1
+Andres,14,76,1,1
+Joy,14,64,1,1
+Don,13,199,1,1
+Jennifer,13,180,1,1
+Cheryl,13,163,1,1
+Mr Hernandez,13,142,1,1
+Mike,13,122,2,2
+Social Worker,13,110,2,2
+Russ,13,105,1,1
+Cynthia,13,103,1,1
+Salesman,13,98,3,3
+Stripper,13,94,2,2
+Abigail,13,88,1,1
+Julie,13,84,1,1
+Emt,13,75,4,4
+Penelope,13,51,1,1
+Damien,13,50,1,1
+Murphy,12,154,2,2
+Marina,12,135,1,1
+Felipe,12,116,1,1
+Brian,12,104,1,1
+Pharmacist,12,99,5,3
+Everhardt,12,96,1,1
+Irv,12,79,1,1
+Michelle,12,72,1,1
+Young Doctor,12,69,1,1
+Adam,12,61,2,2
+Dancer,12,55,1,1
+Annie,11,177,2,2
+Friend,11,153,2,2
+Jim,11,150,1,1
+Kaufman,11,147,1,1
+Geerte,11,92,1,1
+Susan,11,91,3,2
+Mrs Lambert,11,79,1,1
+Richter,11,75,2,1
+Guard,11,73,5,4
+Frank's Wife,11,70,1,1
+Rex,11,70,1,1
+Stan,11,67,1,1
+Jodie,11,64,1,1
+Lue,11,50,1,1
+Waitress,11,41,3,2
+Mrs Foreman,10,186,1,1
+Patty,10,179,1,1
+Schaffer,10,164,1,1
+Grace,10,156,2,2
+Beringer,10,151,1,1
+Hugo,10,146,1,1
+Fang Dong Wen,10,107,1,1
+Smits,10,101,1,1
+Matt,10,100,2,2
+Oscar,10,99,1,1
+Rick,10,94,2,2
+Whitner,10,91,1,1
+Harris,10,89,2,2
+Medicaid Guy,10,89,1,1
+Mr Damon,10,86,1,1
+Alan,10,81,1,1
+Farmer,10,76,1,1
+Del,10,70,1,1
+Anesthesiologist,10,69,4,3
+Tyson,10,66,1,1
+Leona,10,62,1,1
+Manny,10,56,1,1
+Caren,10,51,1,1
+Gail,9,216,1,1
+Jamie,9,215,1,1
+Christina,9,129,1,1
+Conway,9,127,1,1
+Terzi,9,113,1,1
+Ayersman,9,109,1,1
+Mr Mckenna,9,103,1,1
+Attending Doctor,9,102,1,1
+Anna,9,91,2,2
+Student 1,9,85,1,1
+Volakis,9,85,1,1
+Charlie,9,76,2,2
+Dr Pilcher,9,74,1,1
+Steve,9,67,2,1
+Stomper,9,66,1,1
+Heather,9,64,1,1
+Daisy,9,59,1,1
+O'shea,9,54,1,1
+Shop Clerk,9,50,1,1
+Xang,8,204,1,1
+Stuart,8,160,1,1
+Warden,8,151,1,1
+Er Doc,8,146,1,1
+Malkin,8,120,1,1
+Chef Anthony,8,116,1,1
+Dr Brady,8,116,1,1
+Sandy,8,109,2,1
+Brandy,8,89,1,1
+Priest,8,85,1,1
+Mrs Soellner,8,80,1,1
+Policeman,8,80,3,3
+Joel,8,78,1,1
+Norris,8,75,1,1
+Ralphie,8,73,1,1
+Maurice,8,72,1,1
+Laura,8,71,1,1
+Mr Foreman,8,70,1,1
+Wells,8,67,2,1
+Marco,8,60,1,1
+Anthony,8,57,1,1
+Student 2,8,52,1,1
+Safer,8,42,2,1
+Bryan,8,40,1,1
+Paige,8,40,1,1
+Chris,8,35,2,2
+Dave,8,32,1,1
+Lim,8,30,1,1
+Air Chase,8,21,1,1
+Fireman1,7,123,1,1
+Dr Kondo,7,118,1,1
+Ms Fields,7,110,1,1
+Sharon,7,103,1,1
+Marisa,7,100,1,1
+Dr Gilmar,7,96,1,1
+Tannenbaum,7,91,1,1
+Keener,7,90,1,1
+Monroe's Wife,7,80,1,1
+Riggin,7,79,1,1
+Lexa,7,78,1,1
+Timmy,7,77,1,1
+Ex-partner,7,76,1,1
+Orange Guy,7,75,1,1
+Defence Lawyer,7,73,1,1
+Male Patient,7,71,2,2
+Hal,7,65,1,1
+Mr Weathers,7,63,1,1
+Ayres,7,61,1,1
+Cruz,7,61,1,1
+Ron,7,61,1,1
+Dobson,7,59,1,1
+Richard,7,58,1,1
+Dr Spain,7,57,1,1
+Alvarez,7,53,1,1
+Guy 1,7,53,1,1
+Judge Foley,7,51,1,1
+Mitchell,7,51,1,1
+Soltes,7,51,1,1
+Tony,7,49,2,2
+Husband,7,48,1,1
+Claire,7,46,1,1
+Leon The Janitor,7,46,1,1
+Dryden,7,45,1,1
+Fireman4,7,45,1,1
+Kid 2,7,44,2,1
+Late 30s Man,7,42,1,1
+Some Guy,7,40,1,1
+Little Girl,7,39,2,1
+Ronnie,7,38,1,1
+Other Kid,7,34,1,1
+Air Cameron,7,30,1,1
+Director,7,30,2,2
+Jen,7,23,1,1
+Ruwe,6,159,1,1
+Loud Speaker,6,145,1,1
+Jacques,6,99,1,1
+Tim,6,98,1,1
+Carlton,6,89,1,1
+Sanford,6,89,1,1
+Schmidt,6,89,1,1
+Union Guy,6,89,1,1
+Rollo,6,83,1,1
+Plumber,6,78,1,1
+Fernando,6,73,1,1
+Chloe,6,72,2,2
+Sherlock Nose,6,70,1,1
+Announcer's Voice,6,69,1,1
+Secretary,6,64,1,1
+Cab Driver,6,63,1,1
+Milton,6,61,1,1
+Ms Washburn,6,50,1,1
+Courtney,6,49,1,1
+Policeman 2,6,49,2,2
+Geoff,6,46,1,1
+Mr Soellner,6,44,1,1
+Forman,6,43,6,4
+Dr Banerjee,6,42,1,1
+Jenny,6,40,2,2
+Dr Taylor,6,39,1,1
+Trevor Kaufman,6,38,1,1
+Doctor 1,6,36,1,1
+Mandy,6,36,1,1
+Security Guy,6,36,1,1
+Cue Music,6,33,3,2
+Mr Carroll,6,29,1,1
+Father,6,27,4,3
+Johnny,6,26,1,1
+Boy 1,6,25,1,1
+Kid 1,6,25,1,1
+Wife,6,25,2,2
+Maya,6,24,1,1
+Karamel,6,17,1,1
+Jay-bird,6,12,1,1
+Kids,6,11,1,1
+Porter,5,122,1,1
+Dr Thomas,5,114,1,1
+Julia Kutner,5,103,1,1
+Winn,5,97,1,1
+Elaine,5,91,1,1
+Almore,5,88,1,1
+Hr Guy,5,75,1,1
+Dr Cheng,5,70,1,1
+Wyeth,5,70,1,1
+Dr Riggin,5,69,1,1
+Glenn,5,66,1,1
+Chang,5,63,1,1
+Dutch,5,63,1,1
+Mr Conroy,5,61,1,1
+Therapist,5,58,3,3
+Beth,5,56,1,1
+Twin 15b,5,56,1,1
+Dr Stone,5,55,1,1
+Dr Harper,5,44,1,1
+Jodi,5,43,1,1
+Ms Ayers,5,43,1,1
+Sister Joan,5,43,1,1
+Mr Jennings,5,42,1,1
+Ina,5,40,1,1
+Sadie,5,39,1,1
+Announcer,5,37,5,5
+Sheldon,5,36,1,1
+Handsome Fellow,5,35,1,1
+Mandarin Woman,5,35,1,1
+Dr Medick,5,34,1,1
+Cecile,5,32,2,2
+Latino Fellow,5,32,1,1
+Macdonald,5,31,1,1
+Marshall,5,31,1,1
+Tough Guy1,5,30,1,1
+Hiccup Guy,5,29,1,1
+Tough Guy2,5,29,1,1
+Female Cop,5,27,1,1
+Choreographer,5,26,1,1
+Daria,5,25,1,1
+Grandpa,5,25,1,1
+Cashier,5,24,3,2
+Imelda,5,24,1,1
+Delivery Man,5,23,1,1
+Male Nurse,5,22,2,2
+Jose,5,21,2,2
+Ricky,5,20,1,1
+Drake,5,19,1,1
+Gene,5,17,1,1
+Mrs Schaeffer,5,17,1,1
+Security Guard,5,17,2,2
+Orderly,5,15,3,2
+Class,5,13,1,1
+Television Announcer,4,114,1,1
+Race Announcer,4,92,1,1
+Aikoa Tanaka,4,70,1,1
+Inmate,4,70,1,1
+Ayala,4,68,1,1
+Larry,4,63,1,1
+Madison,4,57,2,2
+Dr Paulson,4,52,1,1
+Mr Park,4,51,2,2
+Voice,4,51,3,3
+Ortho Doctor,4,49,1,1
+Boardmember,4,46,1,1
+Officer Smith,4,45,1,1
+Rescuer3,4,45,1,1
+Twin 15a,4,45,1,1
+Kay,4,42,1,1
+Reporter,4,40,1,1
+Mrs Carroll,4,37,1,1
+Micah,4,35,1,1
+Nona,4,35,1,1
+Tv,4,35,2,2
+Female Case Worker,4,34,1,1
+Saleswoman,4,34,2,2
+Cora,4,33,1,1
+Dr Wells,4,32,1,1
+Lab Tech,4,31,1,1
+Singh,4,31,1,1
+Clementine,4,30,1,1
+Dina,4,30,2,1
+Dory,4,30,1,1
+Fellow Patron,4,29,1,1
+Chi's Dad,4,26,1,1
+Gibbs,4,25,1,1
+Prather,4,24,1,1
+Bouncer,4,23,1,1
+Mitch,4,23,1,1
+Ms X,4,23,1,1
+Babyshoes,4,22,1,1
+Female Fellow,4,22,1,1
+Garney,4,21,1,1
+Everyone,4,20,3,2
+Hallucination Of Young Abby,4,20,1,1
+Nicole's Father,4,20,1,1
+Resident,4,18,1,1
+Ama,4,17,1,1
+Proctor,4,17,1,1
+Scout,4,17,1,1
+Sam Lee,4,14,1,1
+Walker,4,14,1,1
+Target,4,13,1,1
+Waiter,4,11,2,2
+Chase's Sister,4,9,1,1
+Son,4,8,1,1
+All,4,6,4,2
+Students,4,5,2,2
+Reverend Bowden,3,97,1,1
+Delaire,3,93,1,1
+Cuddy's Voice,3,62,2,2
+Warren,3,59,1,1
+Homeless Man,3,51,1,1
+Dr Marks,3,46,1,1
+Durdanna,3,45,1,1
+Andrews,3,44,1,1
+Todd,3,43,1,1
+Guy 2,3,42,1,1
+Marika,3,40,1,1
+Older Guy,3,40,1,1
+Mr Laffont,3,39,1,1
+Marine 1,3,38,1,1
+Austin,3,34,1,1
+Luisa Maria,3,33,1,1
+James,3,32,1,1
+Pilot,3,32,1,1
+Rita,3,32,1,1
+Runny-nose Guy,3,30,1,1
+Arlene's Voice,3,28,1,1
+Juan,3,28,1,1
+Male Soap Character,3,27,1,1
+Timothy's Mom,3,27,1,1
+Fisher,3,26,1,1
+Ms Friedman,3,26,1,1
+Marko,3,25,2,1
+Paula,3,25,3,3
+Gloria,3,24,1,1
+Roommate,3,23,1,1
+June,3,22,1,1
+Female Lawyer,3,21,1,1
+Mrs Park,3,21,1,1
+Paramedic 1,3,21,1,1
+Brother,3,20,1,1
+Bus Stop Guy,3,19,1,1
+Court Officer,3,19,1,1
+Durkee,3,18,1,1
+Joan,3,18,1,1
+Wheelchair Guy,3,17,1,1
+Valez,3,16,1,1
+Kid,3,15,2,2
+Tall Girl,3,15,1,1
+Volleyball Player,3,15,1,1
+Young Man,3,15,2,2
+Female Dr On Mini Tv,3,14,1,1
+Young Boy,3,14,1,1
+Air Foreman,3,13,1,1
+Trevor's Roommate,3,13,1,1
+Voldemort,3,13,1,1
+Female Soap Character,3,12,1,1
+Jeffrey,3,12,1,1
+Maldonado,3,11,1,1
+Jolie,3,10,1,1
+Sandra,3,10,1,1
+Anesthesiologist 1,3,9,1,1
+Carol,3,9,1,1
+Little Boy,3,9,2,1
+Hseuh,3,6,1,1
+Martin,3,6,1,1
+Asofa,3,5,1,1
+Head Doc,2,178,1,1
+Captain,2,68,1,1
+Leisha,2,52,1,1
+Hostess,2,51,1,1
+Note,2,49,2,2
+Phyllis,2,47,1,1
+Bergen,2,45,1,1
+Boy 2,2,37,1,1
+Male Officer,2,35,1,1
+Asian Man,2,34,1,1
+Fun Stop Attendant,2,33,1,1
+Master,2,32,2,1
+Eve's Mom,2,31,1,1
+Carrick,2,30,1,1
+Chases,2,30,2,1
+Chi's Mom,2,29,1,1
+Weinman,2,28,1,1
+House Sitter,2,27,1,1
+Ceo,2,26,1,1
+Gracie's Voice,2,26,1,1
+Shelley,2,26,1,1
+Tv Announcer,2,26,1,1
+Carny,2,24,1,1
+Brown,2,23,1,1
+Neuro,2,23,1,1
+Abbie,2,22,1,1
+Cudddy,2,22,2,2
+Jesse Baker,2,22,1,1
+Mrs Silver,2,22,1,1
+Prosecuter,2,22,1,1
+Linesman,2,21,1,1
+Man At Faire,2,21,1,1
+Pietramala,2,21,1,1
+Hastings,2,20,1,1
+Phone,2,20,2,2
+Man At Dance,2,19,1,1
+Another Guard,2,18,1,1
+Dry Cleaner,2,18,1,1
+Emt 1,2,18,1,1
+Second Man,2,18,1,1
+Uniformed Man,2,18,1,1
+Big Eye,2,17,1,1
+Danielle,2,17,1,1
+Gabriella,2,17,1,1
+Houses,2,17,2,2
+Man In Crowd,2,17,1,1
+Mel,2,17,1,1
+Mr Hadley,2,17,1,1
+Car,2,16,1,1
+Female Board Member,2,16,1,1
+Dr D'razio,2,15,1,1
+Female Patron,2,15,1,1
+Fred,2,15,1,1
+Houes,2,15,2,2
+Nurse Jeffrey,2,15,1,1
+Dentist,2,14,1,1
+Doctor 2,2,14,1,1
+Fifty-buck Dad,2,14,1,1
+Valdez,2,14,1,1
+Various Staffers,2,14,1,1
+Carmen,2,13,1,1
+Dex,2,13,1,1
+Female Doctor,2,13,2,2
+Fireman5,2,13,1,1
+Joni,2,13,1,1
+Public Defender,2,13,1,1
+Rescuer2,2,13,1,1
+Roid Rage,2,13,1,1
+Sullivan,2,13,1,1
+The Guitarnapper,2,13,1,1
+Airport Loudspeaker,2,12,1,1
+Commentator 1,2,12,1,1
+Female Staff Member,2,12,1,1
+Student3,2,12,1,1
+Cowboy,2,11,1,1
+Mp,2,11,1,1
+Nikki,2,11,1,1
+Ray,2,11,1,1
+Urologist,2,11,1,1
+Avery,2,10,1,1
+Eileen,2,10,1,1
+Female Donor,2,10,1,1
+Jeremy's Dad,2,10,1,1
+Kaitlin,2,10,1,1
+Marta,2,10,1,1
+Stomach Lady,2,10,1,1
+Emo Guy,2,9,1,1
+Neuro 1,2,9,1,1
+Red Headed Boy,2,9,1,1
+Saul,2,9,1,1
+Szabo,2,9,1,1
+Villager,2,9,1,1
+Bass,2,8,1,1
+Boy,2,8,2,2
+Chanting Crowd,2,8,1,1
+Diana,2,8,1,1
+House & Foreman Together,2,8,2,2
+Nicky,2,8,1,1
+Policeman 1,2,8,1,1
+Tongue Guy,2,8,1,1
+Chuck,2,7,1,1
+Clueless Wife,2,7,1,1
+Male Dr On Mini Tv,2,7,1,1
+Mrs Zebalusky,2,7,1,1
+Operator,2,7,1,1
+Quarterback,2,7,1,1
+Bashful Old Lady,2,6,1,1
+Fawn,2,6,1,1
+Jonathan,2,6,1,1
+Audience,2,5,1,1
+Dr Frasier,2,5,1,1
+Ear Guy,2,5,1,1
+General,2,5,1,1
+House & Amber,2,5,1,1
+Mrs Weston,2,5,1,1
+Person,2,5,2,2
+Pulse Dude,2,5,1,1
+Chase & Adams,2,4,2,1
+Chase & Foreman,2,4,2,1
+Computerized Car Voice,2,4,1,1
+Man In Stall,2,4,1,1
+Toros Fan,2,4,1,1
+Mopping Guy,2,3,1,1
+Dr Pinto,2,2,1,1
+Sitcom Studio Audience,2,2,1,1
+Collins,1,118,1,1
+Note 2,1,71,1,1
+Note 1,1,65,1,1
+Male Announcer,1,63,1,1
+Magician Boy On Stage,1,59,1,1
+Message,1,59,1,1
+Overhead Speaker Voice,1,42,1,1
+Tammy,1,41,1,1
+Patient 1,1,39,1,1
+Student,1,38,1,1
+Drnolan,1,37,1,1
+Chorus,1,35,1,1
+Aisnley,1,33,1,1
+House's Answering Machine,1,31,1,1
+Dr Turner,1,29,1,1
+Patient 2,1,29,1,1
+Staffer,1,29,1,1
+Cheerleader On The Video,1,28,1,1
+Ensemble,1,27,1,1
+Announcement,1,26,1,1
+Hose,1,26,1,1
+Process Server,1,25,1,1
+Rachelle,1,24,1,1
+Angela,1,23,1,1
+Danielle Staub,1,23,1,1
+Middle Aged Man,1,23,1,1
+New Jersey,1,23,1,1
+Tyson Ritter,1,23,1,1
+Woman On Tv,1,23,1,1
+Sandra's Husband,1,22,1,1
+Betty,1,21,1,1
+Formean,1,20,1,1
+House To Chase,1,20,1,1
+Workman,1,20,1,1
+Wilson's Voice,1,19,1,1
+Kunter,1,18,1,1
+Nurse Hoffner,1,18,1,1
+College Kid,1,17,1,1
+Elderly Woman,1,17,1,1
+Foremman,1,17,1,1
+Guy In The Clinic,1,17,1,1
+Singing,1,17,1,1
+Thirteen Enters,1,17,1,1
+Chaes,1,16,1,1
+Cooking Teacher,1,16,1,1
+Er Voice-over,1,16,1,1
+Forbes,1,16,1,1
+Camreon,1,15,1,1
+Rescue Worker 1,1,15,1,1
+Woman's Voice,1,15,1,1
+Birthday Girl's Father,1,14,1,1
+Birthday Girl's Mother,1,14,1,1
+Gabiella,1,14,1,1
+Man A,1,14,1,1
+Not-wilson,1,14,1,1
+Ortho Doc,1,14,1,1
+Vagrant,1,14,1,1
+Dionne,1,13,1,1
+Dr Felker,1,13,1,1
+Fireman3,1,13,1,1
+Radio Answer,1,13,1,1
+Trio,1,13,1,1
+Yvette,1,13,1,1
+Ann,1,12,1,1
+Band Member,1,12,1,1
+Business Man,1,12,1,1
+Leeanne,1,12,1,1
+Noisy Girl,1,12,1,1
+Random Firefighter,1,12,1,1
+A Coach,1,11,1,1
+Announcer In The Airport,1,11,1,1
+Boby,1,11,1,1
+Girl 2,1,11,1,1
+Mom's Voice,1,11,1,1
+Phillip,1,11,1,1
+Wilson & Some Guy,1,11,1,1
+Dina Manzo,1,10,1,1
+Guy 2 Tony,1,10,1,1
+Prosecution,1,10,1,1
+Richard Kutner,1,10,1,1
+Clinic Nurse,1,9,1,1
+Frankel,1,9,1,1
+Heard Over The Intercom,1,9,1,1
+Hurse,1,9,1,1
+Man On Phone,1,9,1,1
+Matt's Hallucination Of His Teacher,1,9,1,1
+Minister & Mourners,1,9,1,1
+Nurse Helen,1,9,1,1
+Pa,1,9,1,1
+Pan Am Clerk,1,9,1,1
+Blonde,1,8,1,1
+Club Owner,1,8,1,1
+Cop 2,1,8,1,1
+Diagnosis,1,8,1,1
+Janet,1,8,1,1
+Moon Woman,1,8,1,1
+Ms Corwin,1,8,1,1
+Over The Announcement System,1,8,1,1
+Woman On Pa,1,8,1,1
+A,1,7,1,1
+Bev,1,7,1,1
+Boy In Wheelchair,1,7,1,1
+Cameron's Voice,1,7,1,1
+Clinic Patient Monroe,1,7,1,1
+Either,1,7,1,1
+Female Officer,1,7,1,1
+Female Proctor,1,7,1,1
+Fireman6,1,7,1,1
+Foeman,1,7,1,1
+Ilana,1,7,1,1
+Operating Nurse,1,7,1,1
+Pa Announcer,1,7,1,1
+Red Headed Boy's Father,1,7,1,1
+Technician,1,7,1,1
+Alien,1,6,1,1
+B,1,6,1,1
+C,1,6,1,1
+Convention Registrar,1,6,1,1
+E,1,6,1,1
+F,1,6,1,1
+Fay,1,6,1,1
+Female Patient,1,6,1,1
+Gps Voice,1,6,1,1
+House With A Bemused Grin,1,6,1,1
+Janitor,1,6,1,1
+Loudspeaker,1,6,1,1
+Lucase,1,6,1,1
+Masters Looking At The Tv,1,6,1,1
+Nic,1,6,1,1
+Parks,1,6,1,1
+Police Officer,1,6,1,1
+Porn Actress,1,6,1,1
+Sally,1,6,1,1
+Answering Machine,1,5,1,1
+Cafeteria Worker,1,5,1,1
+Calire,1,5,1,1
+Child's Voice,1,5,1,1
+Christ,1,5,1,1
+Commentator 2,1,5,1,1
+D,1,5,1,1
+Elderly Guy,1,5,1,1
+Fletch,1,5,1,1
+Florist,1,5,1,1
+Girl 1,1,5,1,1
+Guard's Voice,1,5,1,1
+House & Evan,1,5,1,1
+Kid's Mother,1,5,1,1
+Maury,1,5,1,1
+Melodie,1,5,1,1
+Officer Soltes,1,5,1,1
+Old Guy,1,5,1,1
+Receptionist,1,5,1,1
+Voice On Pa,1,5,1,1
+Aide,1,4,1,1
+Butterscotch,1,4,1,1
+Demonbilly,1,4,1,1
+Domonika,1,4,1,1
+Doub Mcmurtry,1,4,1,1
+Esteban's Mother,1,4,1,1
+Flunky,1,4,1,1
+Ingrid,1,4,1,1
+Jewish Lady,1,4,1,1
+Neuro 2,1,4,1,1
+Ralphie & Jack,1,4,1,1
+Real Teacher,1,4,1,1
+Rescue Worker 2,1,4,1,1
+Rescuer1,1,4,1,1
+Ronnnie,1,4,1,1
+Scale,1,4,1,1
+Some Classmate,1,4,1,1
+Someone,1,4,1,1
+Taub & Adams,1,4,1,1
+Tech,1,4,1,1
+Teller,1,4,1,1
+Trieber,1,4,1,1
+Voice On The Phone,1,4,1,1
+Anesthesiologist 2,1,3,1,1
+Anethesiologist,1,3,1,1
+Another Coach,1,3,1,1
+Crowd,1,3,1,1
+Debbie,1,3,1,1
+Fans,1,3,1,1
+Fireman2,1,3,1,1
+Foreman Interrupting,1,3,1,1
+Frightened Passenger 1,1,3,1,1
+Hostetter,1,3,1,1
+House & Natalie,1,3,1,1
+Kelly To Billy,1,3,1,1
+Model,1,3,1,1
+Mr Klingman,1,3,1,1
+Nika,1,3,1,1
+Referee,1,3,1,1
+Taub & Chase,1,3,1,1
+Taub Gets Up Obediently,1,3,1,1
+Voice On Walkie Talkie,1,3,1,1
+Voice Replies,1,3,1,1
+Volleyball Player's Mother,1,3,1,1
+Cabbie,1,2,1,1
+Caufield,1,2,1,1
+Chase & Thirteen,1,2,1,1
+Cranio Surgeon,1,2,1,1
+Emt 2,1,2,1,1
+Friends,1,2,1,1
+Hoffner,1,2,1,1
+Jewish Guest,1,2,1,1
+Jonah,1,2,1,1
+Lena,1,2,1,1
+Male Staff Member,1,2,1,1
+Man Holding Receiver,1,2,1,1
+Nurses,1,2,1,1
+Old Gentleman,1,2,1,1
+Other Visitors,1,2,1,1
+Peng,1,2,1,1
+Short Girl,1,2,1,1
+Stranger At The Door,1,2,1,1
+Student1,1,2,1,1
+Student2,1,2,1,1
+Taub & Park,1,2,1,1
+Topless Actress,1,2,1,1
+Workman On The Floor,1,2,1,1
+A Voice,1,1,1,1
+All But Foreman,1,1,1,1
+Anke,1,1,1,1
+Both Kids,1,1,1,1
+Chase & Taub,1,1,1,1
+David,1,1,1,1
+Dixon,1,1,1,1
+Dr Hourani,1,1,1,1
+Drycleaner,1,1,1,1
+Female Surgeon,1,1,1,1
+Fifty-buck Son,1,1,1,1
+Foreman's Voice,1,1,1,1
+Frightened Passenger 2,1,1,1,1
+House & Lucas,1,1,1,1
+House & Wilson,1,1,1,1
+Liz Masters,1,1,1,1
+Melanie & Joseph,1,1,1,1
+Offstage Male,1,1,1,1
+Patients,1,1,1,1
+Sir Horace,1,1,1,1
+Spartans Fan,1,1,1,1
+Tax Accountant,1,1,1,1
+Taxi Driver,1,1,1,1
+Thirteenforeman,1,1,1,1
+Toughguy1,1,1,1,1
+Young Woman,1,1,1,1

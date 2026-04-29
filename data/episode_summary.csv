@@ -1,0 +1,172 @@
+season,episode,episode_code,episode_title,dialogue_lines,word_count,speaker_count
+1,1,01x01,Pilot,483,5725,20
+1,6,01x06,The Socratic Method,390,5398,18
+1,7,01x07,Fidelity,472,4994,13
+1,8,01x08,Poison,428,4749,21
+1,9,01x09,DNR,89,861,9
+1,10,01x10,Histories,464,4952,25
+1,11,01x11,Detox,506,5123,14
+1,12,01x12,Sport Medicine,443,5416,17
+1,13,01x13,Cursed,465,4993,18
+1,14,01x14,Control,348,4950,17
+1,15,01x15,Mob Rules,435,5154,13
+1,16,01x16,Heavy,507,5547,18
+1,17,01x17,Role Model,385,5186,13
+1,18,01x18,Babies & Bathwater,473,5137,19
+1,19,01x19,Kids,437,4742,21
+1,20,01x20,Love Hurts,441,5285,18
+1,21,01x21,Three Stories,427,5199,20
+1,22,01x22,Honeymoon,388,4719,9
+2,1,02x01,Acceptance,398,5379,16
+2,2,02x02,Autopsy,408,4207,20
+2,3,02x03,Humpty Dumpty,458,5177,12
+2,4,02x04,TB Or Not TB,475,5482,12
+2,5,02x05,Daddy's Boy,529,5640,18
+2,6,02x06,Spin,455,5473,18
+2,7,02x07,Hunting,424,4741,11
+2,8,02x08,The Mistake,483,5875,18
+2,9,02x09,Deception,430,5471,14
+2,10,02x10,Failure to Communicate,435,4987,16
+2,11,02x11,Need to Know,459,4572,18
+2,12,02x12,Distractions,477,4763,17
+2,13,02x13,Skin Deep,411,4601,15
+2,14,02x14,Sex Kills,432,4804,18
+2,15,02x15,Clueless,473,5040,17
+2,16,02x16,Safe,466,4995,11
+2,17,02x17,All in,477,4733,16
+2,18,02x18,Sleeping Dogs Lie,504,5681,12
+2,19,02x19,House vs God,400,5068,14
+2,20,02x20,Euhoria Part 1,451,4717,13
+2,21,02x21,Euhoria Part 2,442,4857,10
+2,22,02x22,Forever,396,4711,10
+2,23,02x23,Who's Your Daddy,379,4503,17
+2,24,02x24,No Reason,411,5166,9
+3,1,03x01,Meaning,413,4562,10
+3,2,03x02,Cane & Able,409,4742,12
+3,3,03x03,Informed Consent,407,4640,14
+3,4,03x04,Lines In The Sand,414,4988,14
+3,5,03x05,Fools For Love,489,5600,16
+3,6,03x06,Que Serà Serà,441,5930,21
+3,7,03x07,Son of Coma Guy,413,5068,10
+3,8,03x08,Whack-a-mole,518,5229,22
+3,9,03x09,Finding Judas,503,5174,13
+3,10,03x10,Merry Little Christmas,446,4997,13
+3,11,03x11,Words and Deeds,410,4985,21
+3,12,03x12,"One Day, One Room",526,4462,26
+3,13,03x13,Needle In a Haystack,500,5284,18
+3,14,03x14,Insensitive,475,5572,15
+3,15,03x15,Half-Wit,487,4270,12
+3,16,03x16,Top Secret,442,5401,10
+3,17,03x17,Fetal Position,470,5971,12
+3,18,03x18,Airborne,494,4062,19
+3,19,03x19,Act Your Age,494,5230,13
+3,20,03x20,House Training,381,5548,13
+3,21,03x21,Family,463,4957,13
+3,22,03x22,Resignation,425,4749,14
+3,23,03x23,The Jerk,509,4921,15
+3,24,03x24,Human Error,418,4338,19
+4,1,04x01,Alone,482,4629,18
+4,2,04x02,The Right Stuff,247,3393,8
+4,3,04x03,97 Seconds,502,5424,22
+4,4,04x04,Guardian Angels,513,4975,18
+4,5,04x05,"Mirror, Mirror",498,5095,17
+4,6,04x06,Whatever It Takes,508,5161,19
+4,7,04x07,Ugly,568,5623,25
+4,8,04x08,You Don't Want to Know,415,4729,13
+4,9,04x09,Games,490,4933,17
+4,10,04x10,It's a Wonderful Lie,548,5672,14
+4,11,04x11,Frozen,473,5394,10
+4,12,04x12,Don't Ever Change,462,4806,13
+4,13,04x13,No More Mr. Nice Guy,519,5365,16
+4,14,04x14,Living the Dream,489,5841,20
+4,15,04x15,House's Head,451,4570,19
+4,16,04x16,Wilson's Heart,388,3474,11
+5,1,05x01,Dying Changes Everything,458,5684,15
+5,2,05x02,Not Cancer,455,5123,21
+5,3,05x03,Adverse Events,474,5741,16
+5,4,05x04,Birthmarks,404,5330,16
+5,5,05x05,Lucky Thirteen,413,4961,13
+5,6,05x06,Joy,496,4925,13
+5,8,05x08,Emancipation,490,5152,18
+5,9,05x09,Last Resort,388,4244,20
+5,10,05x10,Let Them Eat Cake,446,5440,17
+5,11,05x11,Joy to the World,421,5164,26
+5,12,05x12,Painless,411,5205,19
+5,13,05x13,Big Baby,433,5455,17
+5,14,05x14,The Greater Good,371,4961,10
+5,15,05x15,Unfaithful,476,5182,14
+5,16,05x16,The Softer Side,464,4873,15
+5,17,05x17,The Social Contract,443,5889,15
+5,18,05x18,Here Kitty,403,5021,13
+5,19,05x19,Locked In,483,5338,15
+5,20,05x20,Simple Explanation,352,4705,15
+5,21,05x21,Saviors,411,5530,18
+5,22,05x22,House Divided,440,4479,17
+5,23,05x23,Under My Skin,478,4351,20
+5,24,05x24,Both Sides Now,379,5098,17
+6,1,06x01,Broken (part 1),281,3355,17
+6,2,06x02,Broken (Part 2),400,4965,17
+6,3,06x03,Epic Fail,426,5097,19
+6,4,06x04,The Tyrant,375,4644,17
+6,5,06x05,Instant Karma,453,5022,17
+6,6,06x06,Brave Heart,408,4437,19
+6,7,06x07,Known Unknowns,408,4974,22
+6,8,06x08,Teamwork,384,5549,17
+6,9,06x09,Ignorance Is Bliss,496,5075,21
+6,10,06x10,Wilson,446,4811,17
+6,11,06x11,The Down Low,422,5112,16
+6,12,06x12,Remorse,457,5302,15
+6,13,06x13,Moving the Chains,422,5468,18
+6,14,06x14,5 to 9,434,5430,24
+6,15,06x15,Private Lives,396,5410,27
+6,16,06x16,Black Hole,452,4424,18
+6,17,06x17,Lockdown,335,3856,21
+6,18,06x18,Knight Fall,496,4777,17
+6,19,06x19,Open and Shut,421,5042,17
+6,20,06x20,The Choice,524,4605,18
+6,21,06x21,Baggage,421,5645,22
+6,22,06x22,Help Me,359,3773,16
+7,1,07x01,Now What?,375,4349,11
+7,2,07x02,Selfish,396,4898,18
+7,3,07x03,Unwritten,453,4909,13
+7,4,07x04,Massage Therapy,435,5110,16
+7,5,07x05,Unplanned Parenthood,436,4829,16
+7,6,07x06,Office Politics,438,5701,12
+7,7,07x07,A Pox On Our House,404,4562,22
+7,8,07x08,Small Sacrifices,415,4689,15
+7,9,07x09,Larger than Life,386,4856,21
+7,10,07x10,Carrot or Stick,238,3114,16
+7,11,07x11,Family Practice,378,4876,23
+7,12,07x12,You Must Remember This,403,4911,13
+7,13,07x13,Two Stories,477,4881,33
+7,14,07x14,Recession Proof,353,4239,11
+7,15,07x15,Bombshells,279,3241,16
+7,16,07x16,Out Of The Chute,357,4202,16
+7,17,07x17,Fall From Grace,386,4643,13
+7,19,07x19,Last Temptation,372,4262,18
+7,20,07x20,Changes,360,5390,15
+7,21,07x21,The Fix,404,5121,19
+7,22,07x22,After Hours,361,3672,17
+7,23,07x23,Moving On,353,4468,19
+8,1,08x01,Twenty Vicodin,315,3769,19
+8,2,08x02,Transplant,386,4328,16
+8,3,08x03,Charity Case,406,5143,11
+8,4,08x04,Risky Business,365,5174,12
+8,5,08x05,The Confession,334,4927,14
+8,6,08x06,Parents,395,5648,26
+8,7,08x07,Dead & Buried,382,4112,19
+8,8,08x08,Perils of Paranoia,456,5113,22
+8,9,08x09,Better Half,405,5095,17
+8,10,08x10,Runaways,353,5018,17
+8,11,08x11,Nobody's Fault,359,4511,16
+8,12,08x12,Chase,386,4201,13
+8,13,08x13,Man of the House,387,5503,16
+8,14,08x14,Love Is Blind,373,4813,13
+8,15,08x15,Blowing the Whistle,380,4993,16
+8,16,08x16,Gut Check,361,4585,16
+8,17,08x17,We Need The Eggs,386,4600,22
+8,18,08x18,Body and Soul,367,4333,12
+8,19,08x19,The C Word,317,3772,12
+8,20,08x20,Post Mortem,338,4036,15
+8,21,08x21,Holding On,323,3732,18
+8,22,08x22,Everybody Dies,263,3679,19
