@@ -1,16 +1,16 @@
 # Differential Dialogue: A House M.D. Character Intelligence Console
 
-**Project 3: TV Transcript Text Analysis and Interactive Visualization**  
-**Student:** Arvish  
-**Team:** Solo project  
-**Live Application:** <!-- [Live Demo](PASTE_DEPLOYED_APP_LINK_HERE) -->  
-**Code Repository:** <!-- [GitHub Repository](PASTE_GITHUB_REPO_LINK_HERE) -->  
+**Project 3: House MD Transcript Analysis and Visualization Console**  
+**Student:** Arvish Pandey
+**Team:** Individual Project  
+**Live Application:** [Live Demo](https://differentialdialogue-p3.netlify.app/)  
+**Code Repository:** [GitHub Repository](https://github.com/arvish/data_viz_project3)  
 **Demo Video:** <!-- [2–3 Minute Demo Video](PASTE_VIDEO_LINK_HERE) -->
 
-<!--
+
 ## Preview Image
-![Differential Dialogue dashboard preview](assets/images/dashboard-preview.png)
--->
+![Differential Dialogue Dashboard](assets/images/dashboard-preview.png)
+
 
 ---
 
@@ -24,9 +24,9 @@ The application is designed to help a viewer understand the character structure 
 - Which characters dominate different seasons?
 - How do the main characters interact with each other?
 - What words define a selected character’s dialogue?
-- How does a phrase such as `lupus`, `pain`, or `cancer` appear across seasons?
+- How does a phrase such as `lupus`, `pain`, or `cancer`(Wilson or House?) appear across seasons?
 
-The goal was not to build a fan page. The goal was to build a **diagnostic console for dialogue**. The application treats the show like a textual system. Each speaker becomes a signal. Each season becomes a timeline. Each interaction becomes a weighted connection.
+The goal was to build a **diagnostic console for dialogue**. The application treats the show like a textual system. Each speaker becomes a signal. Each season becomes a timeline. Each interaction becomes a weighted connection.
 
 The final result is **Differential Dialogue**, a D3-powered character intelligence dashboard for **House M.D.**
 
@@ -39,7 +39,7 @@ The final result is **Differential Dialogue**, a D3-powered character intelligen
 The transcript data came from **Forever Dreaming Transcripts**, which hosts episode transcript pages for **House M.D.**
 
 **Source:**  
-<!-- [House M.D. Forever Dreaming Transcript Index](PASTE_SOURCE_LINK_HERE) -->
+[House M.D. Forever Dreaming Transcript Index](https://transcripts.foreverdreaming.org/viewforum.php?f=890)
 
 The project originally explored multiple shows and sources. Some shows had transcripts but did not label who was speaking. That made them unusable for a character-centered analysis. The selected House M.D. source was useful because most episode pages included speaker tags, such as:
 
@@ -148,10 +148,10 @@ speaker_alias_audit.csv
 
 The preprocessing script also produces an episode parse report, which makes the exclusions transparent. This was important because some transcript pages did not contain reliable speaker tags. Those episodes were excluded rather than guessed.
 
-<!--
+
 ## Data Screenshot
-![Data processing output](assets/images/data-processing-output.png)
--->
+![Data Processing Output](assets/images/data-processing-output.png)
+
 
 ---
 
@@ -161,10 +161,10 @@ The application is built as a single-page interactive dashboard. The visual styl
 
 The interface has a global control ribbon and multiple linked views. Changing the selected season, character, metric, or network mode updates the relevant views.
 
-<!--
+
 ## Full Dashboard Screenshot
-![Full dashboard screenshot](assets/images/full-dashboard.png)
--->
+![Full Dashboard](assets/images/full-dashboard.png)
+
 
 ### 3.1 Global Overview and Controls
 
@@ -211,10 +211,6 @@ Design justification:
 
 A bar chart was the best choice here because the task is direct comparison. The viewer needs to quickly answer who speaks more and by how much.
 
-<!--
-![Character Command Weight screenshot](assets/images/character-command-weight.png)
--->
-
 ---
 
 ### 3.3 Season Presence Matrix
@@ -232,10 +228,6 @@ Interactions:
 Design justification:
 
 A heatmap was chosen because it is compact and good for comparing two categorical dimensions at once. In this case, those dimensions are character and season. It also reveals structural shifts in the show more effectively than a long table.
-
-<!--
-![Season Presence Matrix screenshot](assets/images/season-presence-matrix.png)
--->
 
 ---
 
@@ -260,10 +252,6 @@ Interactions:
 Design justification:
 
 The case-file metaphor fits the House M.D. theme. It also gives the dashboard a narrative anchor. The user is not only looking at charts, they are inspecting a character record.
-
-<!--
-![Case File screenshot](assets/images/case-file.png)
--->
 
 ---
 
@@ -312,10 +300,6 @@ Design justification:
 
 The orbital mode is intentionally more experimental. The matrix remains the precise analytical view. The force graph remains the standard network view. The orbital sphere adds a more interactive way to explore the same network without relying on extra frameworks or WebGL libraries.
 
-<!--
-![Interaction Graph screenshot](assets/images/interaction-graph.png)
--->
-
 ---
 
 ### 3.6 Interaction Matrix
@@ -331,10 +315,6 @@ Interactions:
 Design justification:
 
 Networks can look impressive, but they can also become visually tangled. The matrix is included as the serious analytical companion to the graph. It makes pairwise comparisons easier and prevents the project from relying only on a decorative network visualization.
-
-<!--
-![Interaction Matrix screenshot](assets/images/interaction-matrix.png)
--->
 
 ---
 
@@ -352,10 +332,6 @@ Interactions:
 Design justification:
 
 The project required a visualization designed for text data. A word cloud is a familiar option, but I wanted a slightly more controlled version. The bubble layout keeps the visual expressive while still making frequency visible through area. It also matches the liquid-glass dashboard style better than a basic rectangular word cloud.
-
-<!--
-![Lexical Fingerprint screenshot](assets/images/lexical-fingerprint.png)
--->
 
 ---
 
@@ -387,10 +363,6 @@ Interactions:
 Design justification:
 
 This feature extends the project beyond static text summaries. It lets the user ask their own question of the transcript corpus. It also directly supports the assignment’s suggestion to search for words or phrases and examine when they appear or disappear across the show.
-
-<!--
-![Phrase Tracker screenshot](assets/images/phrase-tracker.png)
--->
 
 ---
 
@@ -455,21 +427,6 @@ The design choices were intentional:
 - **Phrase tracker** for exploratory text search.
 - **Orbital view** for advanced interactive inspection of network density.
 
-<!--
-## Sketch 1: Initial Layout
-![Initial design sketch](assets/sketches/sketch-1-layout.jpg)
--->
-
-<!--
-## Sketch 2: Interaction Graph and Matrix Planning
-![Network design sketch](assets/sketches/sketch-2-network.jpg)
--->
-
-<!--
-## Sketch 3: Text Analysis and Phrase Tracker Planning
-![Text analysis sketch](assets/sketches/sketch-3-text-analysis.jpg)
--->
-
 ---
 
 ## 5. Findings and Discoveries
@@ -482,19 +439,11 @@ The most obvious finding is that House is not just the main character narrativel
 
 This fits the structure of the show. House drives the diagnostic process, the conflict, and much of the humor. The data makes that dominance visible.
 
-<!--
-![House dominance screenshot](assets/images/finding-house-dominance.png)
--->
-
 ### 5.2 The early team structure is clearly visible
 
 The season matrix shows the early diagnostic team: House, Foreman, Chase, Cameron, Wilson, and Cuddy. Their presence is strongest in the early seasons, with later changes visible as the team evolves.
 
 Cameron’s pattern is especially useful because her prominence is not evenly distributed across all seasons. The heatmap helps show that shift without needing to read episode summaries manually.
-
-<!--
-![Early team heatmap screenshot](assets/images/finding-early-team.png)
--->
 
 ### 5.3 Later-season characters enter as visible blocks
 
@@ -502,29 +451,17 @@ Characters such as Taub, Thirteen, Kutner, Masters, Adams, and Park appear as la
 
 The dashboard makes it easy to see that the show is not static. Its character system changes as the diagnostic team changes.
 
-<!--
-![Later cast transition screenshot](assets/images/finding-later-cast.png)
--->
-
 ### 5.4 House is the network center
 
 The interaction graph and matrix show House as the central hub. Most major characters have strong interaction edges with him. This is expected, but the visualization shows how strongly the dialogue network is organized around him.
 
 The matrix also makes it easier to compare secondary relationships, such as House-Wilson, House-Cuddy, House-Foreman, and team interactions.
 
-<!--
-![Network finding screenshot](assets/images/finding-network-center.png)
--->
-
 ### 5.5 Phrase search reveals thematic movement
 
 The phrase tracker allows the user to search for medical, emotional, or recurring thematic terms. Searching terms such as `lupus`, `pain`, or `cancer` reveals which seasons and characters carry those terms most often.
 
 This makes the application more exploratory. Instead of only showing predefined findings, it lets the user test their own curiosity against the transcript data.
-
-<!--
-![Phrase tracker finding screenshot](assets/images/finding-phrase-tracker.png)
--->
 
 ---
 
@@ -543,8 +480,6 @@ Python
 BeautifulSoup
 pandas
 ```
-
-The frontend stays within the class constraints by using D3, JavaScript, HTML, and CSS. No React, Svelte, TypeScript, Three.js, or charting framework was used.
 
 Python was used for preprocessing because the raw transcript pages required scraping, parsing, speaker cleanup, and summary generation before they could be visualized.
 
@@ -577,137 +512,9 @@ DataViz_P3/
     episodes/
 ```
 
-### Running the preprocessing
-
-The preprocessing pipeline can be run after local transcript HTML files are saved.
-
-Example commands:
-
-```powershell
-python scripts/house_pipeline.py parse --manifest data/episode_manifest.csv --html-dir raw/episodes --out-dir data --min-lines 50 --min-speakers 3
-python scripts/house_pipeline.py derive --dialogue data/dialogue_lines.csv --out-dir data
-```
-
-The parse step creates:
-
-```text
-dialogue_lines.csv
-episode_parse_report.csv
-```
-
-The derive step creates:
-
-```text
-character_summary.csv
-character_season_summary.csv
-character_episode_summary.csv
-episode_summary.csv
-speaker_edges.csv
-speaker_edges_directed.csv
-speaker_edges_major.csv
-character_words_by_season.csv
-character_words_top50_by_season.csv
-major_characters.csv
-notable_secondary_characters.csv
-speaker_alias_audit.csv
-```
-
-### Running the frontend locally
-
-From the frontend folder:
-
-```powershell
-python -m http.server 5173
-```
-
-Then open:
-
-```text
-http://localhost:5173
-```
-
-The project should be run through a local server rather than by double-clicking `index.html`, because browsers may block CSV loading from a local `file://` path.
-
-### Access
-
-Code repository:
-
-<!-- [GitHub Repository](PASTE_GITHUB_REPO_LINK_HERE) -->
-
-Live application:
-
-<!-- [Live Application](PASTE_DEPLOYED_APP_LINK_HERE) -->
-
-Demo video:
-
-<!-- [Demo Video](PASTE_VIDEO_LINK_HERE) -->
-
 ---
 
-## 7. Demo Video
-
-A 2 to 3 minute demo video should show:
-
-1. The project title and purpose.
-2. The dataset scale.
-3. The character ranking chart.
-4. The season presence matrix.
-5. The selected character case file.
-6. The interaction graph, matrix, and orbital mode.
-7. The lexical fingerprint.
-8. The phrase tracker.
-9. One or two findings from the application.
-
-Suggested script outline:
-
-```text
-This project is called Differential Dialogue. It analyzes House M.D. transcripts to understand character importance, dialogue patterns, and interaction structure across the show.
-
-The dataset includes 171 usable episodes across 8 seasons. I processed the transcripts into structured dialogue lines, normalized speaker names, and created summary files for D3.
-
-The first view shows character importance. House dominates the show, but filtering by season reveals how the supporting cast changes.
-
-The season matrix shows when characters enter, fade, or remain central.
-
-The interaction graph and matrix show who speaks near whom. The orbital mode lets the user rotate the network for a more dimensional view.
-
-The lexical fingerprint shows what a selected character tends to say, and the phrase tracker lets the user search for terms like lupus, pain, or cancer across seasons.
-
-Together, the application turns transcript data into a character intelligence console for House M.D.
-```
-
-Video link:
-
-<!-- [2–3 Minute Demo Video](PASTE_VIDEO_LINK_HERE) -->
-
-<!--
-## Embedded Demo Video
-<iframe width="560" height="315" src="PASTE_EMBED_URL_HERE" title="Differential Dialogue Demo Video" frameborder="0" allowfullscreen></iframe>
--->
-
----
-
-## 8. Team Contributions
-
-This was a **solo project**.
-
-| Component | Contributor |
-|---|---|
-| Show selection and data-source research | Arvish |
-| Transcript collection and local file organization | Arvish |
-| Python preprocessing pipeline | Arvish |
-| Speaker normalization and data cleaning | Arvish |
-| Character summary tables | Arvish |
-| Network edge generation | Arvish |
-| Text-frequency processing | Arvish |
-| D3 frontend implementation | Arvish |
-| Liquid-glass dashboard design | Arvish |
-| Interaction graph, matrix, orbital view, phrase tracker | Arvish |
-| Documentation and demo preparation | Arvish |
-
----
-
-## 9. Limitations and Future Work
+## 7. Limitations and Future Work
 
 The largest limitation is that the transcripts did not always include reliable scene boundaries. Because of that, the interaction network uses dialogue proximity as an approximation rather than perfect scene co-presence.
 
@@ -725,7 +532,7 @@ Future improvements could include:
 
 ---
 
-## 10. Final Reflection
+## 8. Final Reflection
 
 This project became more than a transcript exercise. It became a way to study a show through structure. House M.D. is built around diagnosis, conflict, and language. That made it a strong subject for a data visualization project.
 
